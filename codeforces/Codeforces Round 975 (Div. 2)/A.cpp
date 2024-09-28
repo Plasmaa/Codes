@@ -13,7 +13,7 @@ int main()
     {
         int n;
         cin >> n;
-        int a[n];
+        vector<int> a(n);
         for (int i = 0; i < n; i++)
             cin >> a[i];
 
@@ -25,10 +25,10 @@ int main()
             int c = 0;
             int prev_max = 0;
 
-            for (int i = i; i < n; i += 2)
+            for (int j = i; j < n; j += 2)
             {
                 c++;
-                prev_max = max(prev_max, a[i]);
+                prev_max = max(prev_max, a[j]);
             }
 
             cur_max = prev_max + c;
