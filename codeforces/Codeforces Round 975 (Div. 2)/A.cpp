@@ -41,3 +41,32 @@ int main()
 
     return 0;
 }
+
+/*
+#include <bits/stdc++.h>
+using namespace std;
+
+void run()
+{
+    int n;
+    cin >> n;
+    int ans = 0, x;
+    for (int i = 1; i <= n; i++)
+    {
+        cin >> x;
+        ans = max(ans, x + (((i % 2) + n) / 2));
+    }
+    cout << ans << "\n";
+}
+
+int main()
+{
+    int t = 1;
+    cin >> t;
+    while (t--)
+    {
+        run();
+    }
+}
+
+*/
