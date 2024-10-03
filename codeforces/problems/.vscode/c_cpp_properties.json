@@ -6,9 +6,9 @@
                 "${workspaceFolder}/**"
             ],
             "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
+                "${workspaceFolder}/**",
+                "C:/MinGW/include",
+                "C:/MinGW/lib/gcc/mingw32/8.1.0/include/c++"
             ],
             "compilerPath": "cl.exe",
             "intelliSenseMode": "windows-msvc-x64"
